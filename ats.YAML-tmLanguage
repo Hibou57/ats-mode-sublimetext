@@ -51,7 +51,7 @@ repository:
 
   block:
     name: meta.block
-    begin: (?<=where|=|^|then|else|\$rec|\$rec_t|\$rec_vt)(?:\s*)\{
+    begin: (?<=where|=|^|then|else|\$rec|\$rec_t|\$rec_vt)(?:\s*)\{(?=\s|$)
     end: \}
     patterns:
     - include: $self

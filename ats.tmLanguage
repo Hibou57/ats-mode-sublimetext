@@ -104,7 +104,7 @@
 			<key>applyEndPatternLast</key>
 			<integer>1</integer>
 			<key>begin</key>
-			<string>(?&lt;=where|=|^|then|else|\$rec|\$rec_t|\$rec_vt)(?:\s*)\{</string>
+			<string>(?&lt;=where|=|^|then|else|\$rec|\$rec_t|\$rec_vt)(?:\s*)\{(?=\s|$)</string>
 			<key>end</key>
 			<string>\}</string>
 			<key>name</key>
